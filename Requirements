@@ -1,0 +1,21 @@
+
+
+
+
+
+opencv-python>=4.5.0
+mediapipe>=0.8.6
+numpy>=1.20.0
+
+How to Use requirements.txt
+
+1.  Create the file: In the root directory of your project, create a new file named requirements.txt.
+
+2.  Add dependencies: List each required library on a new line. You can specify version numbers using operators like `==` (exact version), `>=` (minimum version), or `<` (maximum version). Specifying a minimum version is generally a good practice to prevent compatibility issues with older library versions.
+
+3.  Install dependencies: To install all the listed libraries, a user can simply navigate to your project directory in their terminal and run the following command:
+
+    ```bash
+    pip install -r requirements.txt
+    ```
+
