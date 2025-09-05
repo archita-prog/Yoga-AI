@@ -1,65 +1,79 @@
-Yogi AI: Real-Time Yoga Pose Correction
+Yoga AI: Real-Time Yoga Pose Correction
 
-Yogi AI is an innovative computer vision project that provides real-time feedback on yoga poses. Using AI-powered pose estimation, the application detects key body landmarks and analyzes them to determine the correctness of a user's pose. Whether you're a beginner or an experienced yogi, this tool helps improve your form and prevent injuries.
+Yogi AI is a computer vision–powered application that provides **real-time feedback on yoga poses**. Using AI-based pose estimation, the app detects key body landmarks, analyzes angles, and evaluates posture correctness. Whether you're a beginner or an advanced yogi, Yogi AI helps you **improve your form, enhance performance, and reduce injury risks**.
 
-| Feature | Status |
-| :--- | :--- |
-| Real-time Pose Detection| ✅ |
-| Angle & Form Analysis | ✅ |
-
+---
 
 Features
-Live Pose Tracking: Utilizes a webcam feed to identify and track a user's body landmarks in real time.
-Pose Recognition: Accurately recognizes various yoga poses.
-Performance Analysis: Calculates angles between key joints (e.g., knee, elbow, hip) to evaluate pose correctness.
-Visual Feedback:Provides on-screen indicators and instructions to guide the user toward the correct form.
 
------
+| Feature                  | Status |
+| :----------------------- | :----- |
+| Real-time Pose Detection | ✅      |
+| Angle & Form Analysis    | ✅      |
+| Visual Feedback          | ✅      |
+| Pose Recognition         | ✅      |
+
+* **Live Pose Tracking**: Uses your webcam to track body landmarks in real time.
+* **Pose Recognition**: Detects and classifies multiple yoga poses with high accuracy.
+* **Performance Analysis**: Computes joint angles (knee, elbow, hip, etc.) to assess correctness.
+* **Visual & Textual Feedback**: Provides on-screen indicators and step-by-step corrections.
+
+---
 
 Installation
 
-To get started with Yogi AI, you'll need Python 3.7 or higher. Follow these steps to set up your environment:
+Make sure you have Python 3.7+ installed. Then, follow these steps:
 
-1.  Clone the repository:
+Clone the repository
 
-    ```
-    git clone https://github.com/your-username/yogi-ai.git
-    cd yogi-ai
-    ```
+   ```bash
+   git clone https://github.com/your-username/yogi-ai.git
+   cd yogi-ai
+   ```
 
-2.  Create and activate a virtual environment (recommended):
+   Create & activate a virtual environment
 
-    ```
-    python -m venv venv
-    # On Windows:
-    .\venv\Scripts\activate
-    # On macOS/Linux:
-    source venv/bin/activate
-    ```
+   ```bash
+   python -m venv venv
 
+   # On Windows:
+   .\venv\Scripts\activate
 
- Usage
+   # On macOS/Linux:
+   source venv/bin/activate
+   ```
 
-To run the application, ensure your virtual environment is active and execute the main Python script:
+Install dependencies
 
-```
+   ```bash
+   pip install -r requirements.txt
+   ```
+
+---
+
+Usage
+
+Run the main script to start real-time yoga pose correction:
+
+```bash
 python main.py
 ```
 
-The application will launch your webcam and begin real-time pose detection. Follow the on-screen prompts and try out different yoga poses\!
+Your webcam will open, and Yogi AI will begin **pose detection & analysis**.
+Follow the on-screen instructions and practice different yoga poses!
 
------
+---
+
 Technologies Used
 
-Python: The core programming language for the project.
-OpenCV: An open-source computer vision library used for processing the video stream and drawing visualizations.
-MediaPipe:A machine learning framework by Google for real-time human pose estimation.
-NumPy:A library for numerical operations and efficient array manipulation.
+  Python → Core programming language
+  OpenCV → Video stream processing & visualization
+  MediaPipe → Real-time pose estimation (Google ML framework)
+  NumPy→ Efficient numerical computations
 
------
-Contributing
 
-Contributions are welcome\! If you'd like to improve the project, feel free to fork the repository and submit a pull request with your changes. 
 
------
+
+
+
 
